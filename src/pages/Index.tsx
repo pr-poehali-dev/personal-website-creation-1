@@ -8,12 +8,12 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-yellow-400">
+    <div className="min-h-screen bg-sky-100">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-yellow-400/90 backdrop-blur-sm border-b border-yellow-500 z-50">
+      <nav className="fixed top-0 w-full bg-sky-50/90 backdrop-blur-sm border-b border-sky-200 z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-black">
+            <div className="text-2xl font-bold text-blue-900">
               Доктор Иванов А.С.
             </div>
             <div className="hidden md:flex space-x-8">
