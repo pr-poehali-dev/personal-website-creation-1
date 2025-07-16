@@ -55,11 +55,11 @@ const Index = () => {
               <Badge variant="secondary" className="text-sm">Нейронные сети</Badge>
             </div>
             <div className="flex gap-4 justify-center">
-              <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
                 <Icon name="FileText" size={18} className="mr-2" />
                 Скачать CV
               </Button>
-              <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white">
+              <Button variant="outline" size="lg" className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">
                 <Icon name="Mail" size={18} className="mr-2" />
                 Связаться
               </Button>
@@ -69,10 +69,10 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 px-6 bg-yellow-300/50">
+      <section id="about" className="py-16 px-6 bg-sky-50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center">О себе</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center text-blue-900">О себе</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <Card>
                 <CardHeader>
@@ -122,7 +122,7 @@ const Index = () => {
       {/* Research Section */}
       <section id="research" className="py-16 px-6">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Исследования и проекты</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center text-blue-900">Исследования и проекты</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
@@ -205,9 +205,9 @@ const Index = () => {
       </section>
 
       {/* Publications Section */}
-      <section id="publications" className="py-16 px-6 bg-yellow-300/50">
+      <section id="publications" className="py-16 px-6 bg-sky-50">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Публикации</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center text-blue-900">Публикации</h2>
           <div className="max-w-4xl mx-auto">
             <Tabs defaultValue="papers" className="w-full">
               <TabsList className="grid w-full grid-cols-3">
