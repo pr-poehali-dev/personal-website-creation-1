@@ -289,7 +289,7 @@ const Index = () => {
       {/* Teaching Section */}
       <section id="teaching" className="py-16 px-6">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Преподавание</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center text-blue-900">Преподавание</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
@@ -302,7 +302,7 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="p-4 border rounded-lg">
                     <h4 className="font-semibold">Машинное обучение</h4>
-                    <p className="text-muted-foreground text-sm">Бакалавриат • 4 курс</p>
+                    <p className="text-blue-600 text-sm">Бакалавриат • 4 курс</p>
                   </div>
                   <div className="p-4 border rounded-lg">
                     <h4 className="font-semibold">Искусственный интеллект</h4>
@@ -345,9 +345,9 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 px-6 bg-yellow-300/50">
+      <section id="contact" className="py-16 px-6 bg-sky-50">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Контакты</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center text-blue-900">Контакты</h2>
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
             <Card>
               <CardHeader>
