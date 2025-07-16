@@ -8,22 +8,22 @@ import Icon from '@/components/ui/icon';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-yellow-400">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b border-border z-50">
+      <nav className="fixed top-0 w-full bg-yellow-400/90 backdrop-blur-sm border-b border-yellow-500 z-50">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-primary">
+            <div className="text-2xl font-bold text-black">
               Доктор Иванов А.С.
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#about" className="hover:text-primary transition-colors">О себе</a>
-              <a href="#research" className="hover:text-primary transition-colors">Исследования</a>
-              <a href="#publications" className="hover:text-primary transition-colors">Публикации</a>
-              <a href="#teaching" className="hover:text-primary transition-colors">Преподавание</a>
-              <a href="#consulting" className="hover:text-primary transition-colors">Консалтинг</a>
-              <a href="#blog" className="hover:text-primary transition-colors">Блог</a>
-              <a href="#contact" className="hover:text-primary transition-colors">Контакты</a>
+              <a href="#about" className="hover:text-black transition-colors text-black">О себе</a>
+              <a href="#research" className="hover:text-black transition-colors text-black">Исследования</a>
+              <a href="#publications" className="hover:text-black transition-colors text-black">Публикации</a>
+              <a href="#teaching" className="hover:text-black transition-colors text-black">Преподавание</a>
+              <a href="#consulting" className="hover:text-black transition-colors text-black">Консалтинг</a>
+              <a href="#blog" className="hover:text-black transition-colors text-black">Блог</a>
+              <a href="#contact" className="hover:text-black transition-colors text-black">Контакты</a>
             </div>
             <Button variant="outline" size="sm" className="md:hidden">
               <Icon name="Menu" size={18} />
@@ -37,14 +37,14 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
             <img 
-              src="/img/d4da42b6-5e58-4f4b-81d4-eec66dc239b3.jpg" 
-              alt="Профессор Иванов А.С." 
+              src="https://cdn.poehali.dev/files/25e9b785-0181-4518-b54a-db5269ff1c05.png" 
+              alt="Доктор Иванов А.С." 
               className="w-32 h-32 rounded-full mx-auto mb-8 object-cover shadow-lg"
             />
-            <h1 className="text-5xl font-bold mb-6 text-foreground">
+            <h1 className="text-5xl font-bold mb-6 text-black">
               Доктор Александр Иванов
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-xl text-black/80 mb-8 leading-relaxed">
               Доктор наук, профессор кафедры прикладной математики и информатики.
               Специализируюсь на машинном обучении, анализе данных и искусственном интеллекте.
             </p>
@@ -55,11 +55,11 @@ const Index = () => {
               <Badge variant="secondary" className="text-sm">Нейронные сети</Badge>
             </div>
             <div className="flex gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90">
+              <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">
                 <Icon name="FileText" size={18} className="mr-2" />
                 Скачать CV
               </Button>
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" className="border-black text-black hover:bg-black hover:text-white">
                 <Icon name="Mail" size={18} className="mr-2" />
                 Связаться
               </Button>
@@ -69,7 +69,7 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 px-6 bg-muted/30">
+      <section id="about" className="py-16 px-6 bg-yellow-300/50">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">О себе</h2>
@@ -205,7 +205,7 @@ const Index = () => {
       </section>
 
       {/* Publications Section */}
-      <section id="publications" className="py-16 px-6 bg-muted/30">
+      <section id="publications" className="py-16 px-6 bg-yellow-300/50">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Публикации</h2>
           <div className="max-w-4xl mx-auto">
@@ -345,7 +345,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 px-6 bg-muted/30">
+      <section id="contact" className="py-16 px-6 bg-yellow-300/50">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Контакты</h2>
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
