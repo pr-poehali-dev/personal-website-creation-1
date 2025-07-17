@@ -105,11 +105,11 @@ const Index = () => {
                   <div className="space-y-4">
                     <div>
                       <h4 className="font-semibold">Премия РАН</h4>
-                      <p className="text-muted-foreground">За выдающиеся исследования в области ИИ</p>
+                      <p className="text-blue-600">За выдающиеся исследования в области ИИ</p>
                     </div>
                     <div>
                       <h4 className="font-semibold">Грант РФФИ</h4>
-                      <p className="text-muted-foreground">Руководитель проекта 2023-2025</p>
+                      <p className="text-blue-600">Руководитель проекта 2023-2025</p>
                     </div>
                   </div>
                 </CardContent>
@@ -141,9 +141,9 @@ const Index = () => {
                   className="w-full h-32 object-cover rounded-lg mb-4"
                 />
                 <div className="flex gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs">Python</Badge>
-                  <Badge variant="outline" className="text-xs">TensorFlow</Badge>
-                  <Badge variant="outline" className="text-xs">PyTorch</Badge>
+                  <Badge className="bg-blue-100 text-blue-800 text-xs">Python</Badge>
+                  <Badge className="bg-blue-100 text-blue-800 text-xs">TensorFlow</Badge>
+                  <Badge className="bg-blue-100 text-blue-800 text-xs">PyTorch</Badge>
                 </div>
                 <Button variant="outline" size="sm" className="w-full">
                   Подробнее
