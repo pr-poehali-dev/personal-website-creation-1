@@ -300,17 +300,17 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="p-4 border rounded-lg">
+                  <div className="p-4 border-blue-200 border rounded-lg">
                     <h4 className="font-semibold">Машинное обучение</h4>
                     <p className="text-blue-600 text-sm">Бакалавриат • 4 курс</p>
                   </div>
-                  <div className="p-4 border rounded-lg">
+                  <div className="p-4 border-blue-200 border rounded-lg">
                     <h4 className="font-semibold">Искусственный интеллект</h4>
-                    <p className="text-muted-foreground text-sm">Магистратура • 1 курс</p>
+                    <p className="text-blue-600 text-sm">Магистратура • 1 курс</p>
                   </div>
-                  <div className="p-4 border rounded-lg">
+                  <div className="p-4 border-blue-200 border rounded-lg">
                     <h4 className="font-semibold">Анализ данных</h4>
-                    <p className="text-muted-foreground text-sm">Бакалавриат • 3 курс</p>
+                    <p className="text-blue-600 text-sm">Бакалавриат • 3 курс</p>
                   </div>
                 </div>
               </CardContent>
@@ -327,15 +327,15 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span>Аспиранты</span>
-                    <Badge variant="secondary">8 человек</Badge>
+                    <Badge className="bg-blue-100 text-blue-800">8 человек</Badge>
                   </div>
                   <div className="flex justify-between items-center">
                     <span>Магистранты</span>
-                    <Badge variant="secondary">12 человек</Badge>
+                    <Badge className="bg-blue-100 text-blue-800">12 человек</Badge>
                   </div>
                   <div className="flex justify-between items-center">
                     <span>Защищенные диссертации</span>
-                    <Badge variant="secondary">15</Badge>
+                    <Badge className="bg-blue-100 text-blue-800">15</Badge>
                   </div>
                 </div>
               </CardContent>
