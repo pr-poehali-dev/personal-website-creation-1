@@ -14,7 +14,7 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold text-blue-900">
-              Доктор Иванов А.С.
+              Банных Галина Алексеевна
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="hover:text-black transition-colors text-black">О себе</a>
@@ -38,15 +38,15 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <img 
               src="https://cdn.poehali.dev/files/25e9b785-0181-4518-b54a-db5269ff1c05.png" 
-              alt="Доктор Иванов А.С." 
+              alt="Банных Галина Алексеевна" 
               className="w-32 h-32 rounded-full mx-auto mb-8 object-cover shadow-lg"
             />
             <h1 className="text-5xl font-bold mb-6 text-black">
-              Доктор Александр Иванов
+              Банных Галина Алексеевна
             </h1>
             <p className="text-xl text-black/80 mb-8 leading-relaxed">
-              Доктор наук, профессор кафедры прикладной математики и информатики.
-              Специализируюсь на машинном обучении, анализе данных и искусственном интеллекте.
+              Кандидат социологических наук, доцент, руководитель образовательной программы "Государственное и муниципальное управление".
+              Специализируюсь на вопросах государственного управления, социологии управления и образовательных программах.
             </p>
             <div className="flex flex-wrap gap-3 justify-center mb-8">
               <Badge variant="secondary" className="text-sm">Машинное обучение</Badge>
@@ -426,7 +426,7 @@ const Index = () => {
       <footer className="py-8 px-6 border-t">
         <div className="container mx-auto text-center">
           <p className="text-muted-foreground">
-            © 2024 Доктор Александр Иванов. Все права защищены.
+            © 2024 Банных Галина Алексеевна. Все права защищены.
           </p>
         </div>
       </footer>
